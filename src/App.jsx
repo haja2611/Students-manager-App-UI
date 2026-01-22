@@ -18,7 +18,7 @@ function App() {
   const [editingId, setEditingId] = useState(null);
   
   // Backend API URL (change this after deployment)
-  const API_URL = 'https://stunning-disco-x6v4vjvxjv425jw-5000.app.github.dev/api/students';
+  const API_URL = 'https://students-manager-app-backend.onrender.com/api/students';
 
   // Fetch students when component loads
   useEffect(() => {
